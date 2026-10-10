@@ -1,0 +1,34 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "final_category": "billing_issue",
+    "final_priority": "high",
+    "final_route_to": "payments_queue",
+    "suggested_reply": "Hello, thank you for reaching out. We apologize for the inconvenience regarding the duplicate charge. We are reviewing your transaction records and will immediately reverse the duplicate charge once confirmed. The adjustment typically appears on your statement within 3–5 business days. Please let us know if you have any questions in the meantime.",
+    "was_overridden": false
+  },
+  {
+    "ticket_id": "T-1002",
+    "final_category": "account_access",
+    "final_priority": "urgent",
+    "final_route_to": "trust_and_access_queue",
+    "suggested_reply": "Hello, we understand the urgency and apologize for the trouble. Please try clearing your app cache or logging in via our web portal. We have also sent a fresh, secure password reset link to your registered email address. If you still cannot log in, please reply directly to this message so we can assist you immediately.",
+    "was_overridden": false
+  },
+  {
+    "ticket_id": "T-1003",
+    "final_category": "product_how_to",
+    "final_priority": "normal",
+    "final_route_to": "general_support_queue",
+    "suggested_reply": "Hello, you can export your transaction history by logging in through our website, going to 'Account' > 'Statements & History', and clicking the 'Export CSV' button in the top-right corner. You can also select a specific date range before downloading. Please let us know if you need any further assistance!",
+    "was_overridden": false
+  },
+  {
+    "ticket_id": "T-1004",
+    "final_category": "account_access",
+    "final_priority": "normal",
+    "final_route_to": "trust_and_access_queue",
+    "suggested_reply": "Hello, thank you for reporting this issue. We apologize for the inconvenience. Our engineering team has been alerted to the crash on the portfolio tab. Could you please reply with your device model and operating system version? In the meantime, you can safely access your portfolio via our web platform.",
+    "was_overridden": true
+  }
+]

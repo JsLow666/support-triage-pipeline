@@ -1,0 +1,38 @@
+[
+  {
+    "ticket_id": "T-1001",
+    "category": "billing_issue",
+    "priority": "high",
+    "confidence": 0.98,
+    "reason": "The customer is reporting a duplicate charge on their bank card for a single deposit.",
+    "suggested_reply": "Hello, thank you for reaching out. We apologize for the inconvenience regarding the duplicate charge. We are reviewing your transaction records and will immediately reverse the duplicate charge once confirmed. The adjustment typically appears on your statement within 3–5 business days. Please let us know if you have any questions in the meantime.",
+    "route_to": "payments_queue"
+  },
+  {
+    "ticket_id": "T-1002",
+    "category": "account_access",
+    "priority": "urgent",
+    "confidence": 0.99,
+    "reason": "The user is locked out after a password reset and requires immediate access before market open.",
+    "suggested_reply": "Hello, we understand the urgency and apologize for the trouble. Please try clearing your app cache or logging in via our web portal. We have also sent a fresh, secure password reset link to your registered email address. If you still cannot log in, please reply directly to this message so we can assist you immediately.",
+    "route_to": "trust_and_access_queue"
+  },
+  {
+    "ticket_id": "T-1003",
+    "category": "product_how_to",
+    "priority": "normal",
+    "confidence": 0.98,
+    "reason": "Customer is requesting instructions on how to export their transaction history to a CSV file.",
+    "suggested_reply": "Hello, you can export your transaction history by logging in through our website, going to 'Account' > 'Statements & History', and clicking the 'Export CSV' button in the top-right corner. You can also select a specific date range before downloading. Please let us know if you need any further assistance!",
+    "route_to": "general_support_queue"
+  },
+  {
+    "ticket_id": "T-1004",
+    "category": "bug_report",
+    "priority": "high",
+    "confidence": 0.97,
+    "reason": "The user is experiencing a repeatable app crash when accessing a primary feature on the latest version.",
+    "suggested_reply": "Hello, thank you for reporting this issue. We apologize for the inconvenience. Our engineering team has been alerted to the crash on the portfolio tab. Could you please reply with your device model and operating system version? In the meantime, you can safely access your portfolio via our web platform.",
+    "route_to": "technical_queue"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "ticket_id": "T-1004",
+    "old_category": "bug_report",
+    "new_category": "account_access",
+    "old_priority": "high",
+    "new_priority": "normal"
+  }
+]
